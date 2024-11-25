@@ -6,12 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config CONFIG_BT_CTLR_TX_PWR_PLUS_8
-    default y
-
-config CONFIG_ZMK_HID_CONSUMER_REPORT_USAGES_BASIC
-    default y
-
 endif
 
 if SHIELD_CYGNUS_LEFT || SHIELD_CYGNUS_RIGHT
